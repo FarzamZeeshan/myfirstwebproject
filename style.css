@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+.text{
+
+    color: red;;
+}
+#container {
+    background-color:  rgb(0, 225, 255);;
+    margin-top: 10%;
+    margin-left:5%;
+    height:80%;
+    width:90%;
+
+}
+#title{
+    text-align: center;
+    border-bottom: 10px ;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.subtitle{
+    color: aliceblue;
+     font-style: italic;
+}
+#main {
+    display :flex;
+}
+#sidebar{
+    width: 25%;
+    background-color: red;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#content{
+    margin-left: 5%;
+}
+.post{
+    border: 2px;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+#spatulas,#hello{
+    height: 80%;
+    width: 30%;
+}
